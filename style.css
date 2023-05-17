@@ -33,7 +33,7 @@ html, body {
     position: absolute;
     top: 7%;
     left: 10%;
-    font-size: 22px;
+    font-size: 20px;
     text-shadow: 3px 3px 5px gray;
   }
 }
@@ -91,8 +91,30 @@ hr {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  #Main-text {
+    font-size: 17px;
+  }
+}
+
 #Section-2 {
   margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  #Section-2 {
+    margin-left: 35px;
+  }
+}
+
+.txt {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .txt {
+    font-size: 14px;
+  }
 }
 
 .fa {
@@ -123,6 +145,14 @@ hr {
   background: #3B5998;
   color: white;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 27px;
+  }
 }
 
 .fa-instagram {
@@ -165,12 +195,12 @@ hr {
   }
 }
 
-#Container {
+#Container, #Container1 {
   display: flex;
   width: 100%;
 }
 
-#l1, #l2, #l3 {
+#l1, #l2, #l3, #C, #P {
   color: gray;
   text-align: center;
   font-size: 16px;
@@ -181,7 +211,7 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  #l1, #l2, #l3 {
+  #l1, #l2, #l3, #C, #P {
     font-size: 12px;
   }
 }
