@@ -5,19 +5,19 @@
 html, body {
   display: flexbox;
   margin: 0;
-  min-height: 100vh;
+  background-color: #B0C4DE;
 }
 
 #Image1 {
   object-fit: cover;
   z-index: -1;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   opacity: 0.6;
 }
 
 #Title {
-  color: gray;
+  color: #202020;
   position: absolute;
   top: 30px;
   left: 100px;
@@ -55,6 +55,7 @@ html, body {
     background-color: white;
     width:80%;
     height: 50%;
+    padding-top: 20px;
   }
 }
 
@@ -63,7 +64,7 @@ html, body {
   bottom: 0px;
   width: 100%;
   height: 20%;
-  background-color: #F8F8FF;
+  background-color: #B0C4DE;
 
 }
 
@@ -93,7 +94,7 @@ hr {
 
 @media screen and (max-width: 600px) {
   #Main-text {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -113,7 +114,7 @@ hr {
 
 @media screen and (max-width: 600px) {
   .txt {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -175,11 +176,8 @@ hr {
 }
 
 #Formations-section {
-  position: absolute;
-  top: 90%;
-  left: 0%;
   width: 100%;
-  background-color: #F8F8FF;
+  background-color: #B0C4DE;
 }
 
 #Formations-title {
@@ -195,18 +193,28 @@ hr {
   }
 }
 
-#Container, #Container1 {
+#Container, #Container1, #Container2 {
   display: flex;
   width: 100%;
 }
 
-#l1, #l2, #l3, #C, #P {
-  color: gray;
+#l1, #l2, #l3 {
+  color: #484848;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
   margin: 3% 5%;
   width: 25%;
+  height: 10%;
+}
+
+#C {
+  color: #484848;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 3% 5%;
+  width: 100%;
   height: 10%;
 }
 
@@ -219,9 +227,9 @@ hr {
 .fl1, .fl2, .fl3 {
   font-size: 18px;
   border-top: 1px solid gray;
-  height: 40px;
+  height: 100px;
   margin-top: 7%;
-  background-color: white;
+  background-color: #E0FFFF;
   border: 0.3px solid #F5F5F5;
   padding-top: 2%;
   box-shadow: 1px 1px 7px black;
@@ -230,7 +238,7 @@ hr {
 @media screen and (max-width: 600px) {
   .fl1, .fl2, .fl3 {
     border-top: 1px solid gray;
-    height: 40px;
+    height: 80px;
     padding-top: 5%;
     font-size: 12px;
   }
@@ -246,4 +254,52 @@ hr {
   .f-title {
     font-size: 12px;
   }
+}
+
+.mat {
+  font-size: 14px;
+  color: 	#505050;
+}
+
+@media screen and (max-width: 600px) {
+  .mat {
+    font-size: 8px;
+    color: 	#505050;
+  }
+}
+
+
+#Footer {
+  width: 100%;
+  height: 250px;
+  background-color: #303030;
+  padding: 30px 100px 30px 100px;
+  color: white;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  #Footer {
+    width: 100%;
+    height: 250px;
+    background-color: #303030;
+    padding: 15px 50px 15px 50px;
+    color: white;
+    font-size: 10px;
+  }
+}
+
+.footer-title {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-title {
+    font-size: 16px;
+  }
+}
+
+#Rights {
+  margin-top: 40px;
+  text-align: center;
 }
