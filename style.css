@@ -16,6 +16,12 @@ html, body {
   opacity: 0.6;
 }
 
+@media screen and (max-width: 600px) {
+  #Image1 {
+    height: 85vh;
+  }
+}
+
 #Title {
   color: #202020;
   position: absolute;
@@ -240,7 +246,7 @@ hr {
     border-top: 1px solid gray;
     height: 100px;
     padding-top: 10%;
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 
@@ -322,6 +328,11 @@ hr {
 #Rights {
   margin-top: 40px;
   text-align: center;
+}
+
+#Rights {
+  margin-top: 40px;
+  font-size: 10px;
 }
 
 #Connexion {
